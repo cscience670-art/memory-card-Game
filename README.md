@@ -1,50 +1,68 @@
-# Welcome to your Expo app 👋
+🧠 Memory Card Game (Expo React Native)
+📌 Overview
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is a Memory Card Game built with React Native (Expo).
+It is designed as a learning project for first-year computer science students to practice mobile development in a fun and interactive way.
 
-## Get started
+The main goal of this project is not just coding, but understanding problem-solving and logical thinking, which is the most important skill in programming—especially in 2026 where AI tools make writing code easier, but not thinking.
 
-1. Install dependencies
+🎯 Purpose
 
-   ```bash
-   npm install
-   ```
+This project focuses on:
 
-2. Start the app
+Developing logical thinking 🧠
+Understanding game mechanics 🎮
+Practicing clean React Native structure 📱
+Learning how to break problems into small steps 🧩
+📱 Tech Stack
+⚛️ React Native
+🚀 Expo
+🟦 TypeScript
+📦 Expo Router (File-based routing)
+🎮 How the Game Works
+Cards are displayed face down.
+The player flips two cards at a time.
+If both cards match, they stay visible.
+If they don’t match, they flip back after a short delay.
+The goal is to match all pairs.
+📂 Project Structure
+app/
+│
+├── index.tsx   # Main game screen (UI + game logic)
+├── layout.tsx  # App navigation structure
+🚀 How to Run
+1️⃣ Install dependencies
+npm install
+2️⃣ Start the project
+npx expo start
+3️⃣ Run the app
+📱 Expo Go (Android / iOS)
+🤖 Android Emulator
+🍎 iOS Simulator
+✨ Features
+Clean and simple UI 🎨
+Card flip animation 🔄
+Matching logic 🧠
+Timer system ⏱️
+Difficulty levels 🎮
+Smooth animations ✨
+Beginner-friendly code 👨‍🎓
+Cross-platform (Android & iOS) 📱
+📚 Learning Outcomes
 
-   ```bash
-   npx expo start
-   ```
+This project helps students understand:
 
-In the output, you'll find options to open the app in a
+React Native fundamentals
+Component-based architecture
+State management
+Basic game logic implementation
+Expo Router file structure
+👨‍💻 Author
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Sadek Amine
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+💡 Future Improvements
+Score system 🏆
+Sound effects 🔊
+Leaderboard system 📊
+Better animations 🎬
