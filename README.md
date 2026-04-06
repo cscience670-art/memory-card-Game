@@ -35,8 +35,7 @@ The goal of this project isn't just to build an app—it's to understand the "wh
 app/
 ├── _layout.tsx    # App entry point & navigation structure
 └── index.tsx      # Main game screen (UI + Game Logic)
-assets/            # Images, icons, and fonts
-components/        # Reusable UI components (Card, Timer, etc.)
+
 ```
 
 ---
